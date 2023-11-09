@@ -1,9 +1,10 @@
-html, body {
+html,
+body {
     font-family: 'IBM Plex Sans Thai', sans-serif;
     padding: 10px;
 }
 
-.m-bk{
+.m-bk {
     background: url(img/ezgif-5-732ab90674.webp);
     background-attachment: fixed;
     background-repeat: repeat;
@@ -97,3 +98,40 @@ header {
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.button-2 {
+    animation: wiggle 2s linear infinite;
+    color: rgb(255, 255, 255);
+    background-color: #1ba0bd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
