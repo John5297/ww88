@@ -25,6 +25,13 @@ body {
     background-size: cover;
 }
 
+.bk02 {
+    background: url(https://sv1.picz.in.th/images/2023/11/10/ddFlO4f.jpeg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
 header {
     width: 100%;
 }
