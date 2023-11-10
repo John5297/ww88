@@ -18,6 +18,13 @@ body {
     background-size: cover;
 }
 
+.bk {
+    background: url(https://cdn.coingaming.io/casino-hub88/tyche/winwinwon/background/tyche_background_winwinwon.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
 header {
     width: 100%;
 }
