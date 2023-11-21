@@ -174,3 +174,19 @@ header {
 @keyframes pop {
     40%  {transform: scale(1.1);}
   }
+
+.t-pop {
+    webkit-animation: pop 2s infinite;
+    animation: pop 1.5s infinite;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+@keyframes t-pop {
+    40%  {transform: scale(1.1);}
+  }
